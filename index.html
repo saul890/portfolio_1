@@ -1,16 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Hello, world!</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="" />
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <h1>What was your name?</h1>
-  <h2>Magolord??</h2>
-  <p>You helped me a lot! I hope one day I can help you a lot...</p>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Saul Hirner</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+     <link rel="icon" href="SL.png">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Heebo:wght@700&family=Manrope:wght@200&family=Nanum+Gothic&family=Noto+Sans+Display:wght@100&family=Prompt&family=Roboto:wght@100;500&family=Rock+3D&family=Shizuru&display=swap" rel="stylesheet">
+  </head>
+ 
+  <body>
+    <div class="gridcontainer">
+      <header>
+        <a href="index.html"><h1 id="name-title">Saul Hirner</h1></a>
+        <p id = "welcome">Welcome to my portfolio.<br> I am interested in website design, user experience, graphic design and photography.</p>
+        <nav><a class = "nav-op" href = "#about">About</a> / <a class = "nav-op" href="#work">Work</a> / <a class = "nav-op" href = "#contact">Contact</a></nav>
+      </header>
+      
+      <main>
+
+        <div id = "outer1" class = "container">
+          <div class = "leftside" id="about">
+            <h1 id="about-title">About</h1>
+            <nav class = "nav2"><a class = "nav-op" href = "#about">About</a> / <a class = "nav-op" href="#work">Work</a> / <a class = "nav-op" href = "#contact">Contact</a></nav>
+          </div>
+
+          <div class = "rightside"> 
+            <img id = "about-pic" src = "Images/profile-pic.png">
+            <p id = "doing-now">I am currently studying design computing at the University of Sydney, while working as a jewellery and handbag photographer at First State Auctions.</p>
+            <p class = "about-para">I picked up photography when I was thirteen, which turned into an appreciation for art in my highschool years. During my final year at school, I was awarded the visual arts prize for my collection of digital artworks about time and space.</p>
+            <p class = "about-para"> I've always been creative, but photography and then photoshop is what has pushed me towards following a career in the digital design space.</p>
+            <p class = "about-para"> When I began studying, I was confused about what career I wanted to pursue. However, during my degree, I have found a passion for designing with code. I think in a mathematical way, and using code to design feels like you're using maths to describe the properties behind how things look and work. This mesh of mathematical problem solving and creativity is what I want out of a career.</p>
+            <p class = "about-para"> I have skills in; Photoshop, Illustrator, Indesign, Premier, After effects, HTML, CSS, Figma and Miro.</p>
+            <p class = "about-para"> I am a quick and humble learner. I am eager to grow my design skills. I am also very hard working, punctual and reliable.</p>
+
+          </div>
+        </div>
+
+        <div id = "outer2" class = "container">
+          <div class = "leftside2" id = "work">
+            <h1 id="work-title">Work</h1>
+            <nav class = "nav2" id ="nav2-work"><a class = "nav-op2" href = "#about">About</a> / <a class = "nav-op2" href="#work">Work</a> / <a class = "nav-op2" href = "#contact">Contact</a></nav>
+          </div>
+          <div class = "rightside">
+            
+            <a href = "https://friendship-circle.saulhirner.repl.co">
+              <div class = "option">
+                <img id = "fc-logo" src = "Images/fc.png" height="100%" width="100%"></img>
+              </div>
+              <div id = "overlay-1" class = "hover-overlay">
+                <h3 class = "work-titles">Website</h3>
+                <h4 class = "work-titles-description">Friendship Circle - uni project.</h4>
+              </div>
+            </a>
+
+            <a href= "Images/viscom.pdf" >
+              <div class = "option">
+                <img src = "Images/vax.jpg" height="100%" width="100%" ></img>
+              </div>
+              <div id = "overlay-2" class = "hover-overlay">
+                <h3 class = "work-titles">Instagram Tiles</h3>
+                <h4 class = "work-titles-description">Medecins Sans Frontieres - uni project.</h4>
+              </div>
+            </a>
+
+          <a href= "https://photography-fsa.saulhirner.repl.co">
+            <div class = "option">
+              <img src = "Images/ring.jpeg" height="100%" width="100%" ></img>
+            </div>
+            <div id = "overlay-3" class = "hover-overlay">
+              <h3 class = "work-titles">Photography</h3>
+              <h4 class = "work-titles-description">First State Auctions</h4>
+            </div>
+          </a>
+
+          <a href = "https://docs.google.com/presentation/d/1hPUo8rlTuLVMehzgwfdIWrxN2yaba5DHu0x-XxydBbI/edit#slide=id.p">
+            <div class = "option">
+              <img src="Images/fem-patient.jpg" height="100%" width="100%">
+            </div>
+            <div id = "overlay-4" class = "hover-overlay">
+              <h3 class = "work-titles">User Experience</h3>
+              <h4 class = "work-titles-description">Ramsay Health Care - Internship</h4>
+            </div>
+          </a>
+            
+          </div>
+        </div>
+
+         <div id = "outer3" class = "container">
+          <div class = "leftside" id = "contact">
+            <h1 id="contact-title">Contact</h1>
+            <nav class = "nav2"><a class = "nav-op" href = "#about">About</a> / <a class = "nav-op" href="#work">Work</a> / <a class = "nav-op" href = "#contact">Contact</a></nav>
+          </div>
+          <div class = "rightside2">
+            <p id = "opener"> I am looking forward to hearing from you soon. </p>
+            <p id = "name">Saul Hirner</p>
+            <a href = "mailto:saulhirner@gmail.com"><p id = "email">saulhirner@gmail.com</p></a>
+            <a href="https://www.linkedin.com/in/saul-hirner-6b3883175/"><img src = "Images/linkedin.png" id = "linkedin-icon"></a>
+            
+
+          </div>
+        </div>
+        
+      </main>
+
+      <footer></footer>
+
+    </div>
+ 
+    <script src="script.js"></script>
+  </body>
 </html>
